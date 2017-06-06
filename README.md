@@ -7,7 +7,11 @@ Each of sites must have its own index.php, bootstrap.php, etc., but they also co
 * configuration files (database, etc.)
 * other project-wide files, like migrations
 
-That common files store in common/ directory. It is linked with COMPATH constant by analogy with APPPATH, SYSPATH, MODPATH.
+Common files located in common/ directory, that is linked with `COMPATH` constant by analogy with `APPPATH`, `SYSPATH`, and `MODPATH`.
+
+#### Installation
+
+> composer create-project illusorium/kohana-multisite:dev-master
 
 #### Creating new site structure from command-line
 
