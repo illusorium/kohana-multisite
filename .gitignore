@@ -1,0 +1,16 @@
+.idea/
+composer.lock
+
+vendor/
+modules/
+
+common/config/*
+!common/config/*.dist.php
+
+application/logs/
+application/cache/
+application/config/
+
+sites/*/application/cache/
+sites/*/application/logs/
+sites/*/application/config/

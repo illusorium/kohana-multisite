@@ -1,0 +1,12 @@
+{
+    "name":        "illusorium/kohana-multisite",
+    "description": "Extension of Kohana framework that allows using common classes and configurations for multiple sites across one project",
+    "homepage":    "https://github.com/illusorium/kohana-multisite",
+    "license":     "BSD-3-Clause",
+    "keywords":    ["kohana", "multisite"],
+    "require": {
+        "php": ">=5.4.0",
+        "kohana/core": "^3.3",
+        "kohana/minion": "^3.3"
+    }
+}
